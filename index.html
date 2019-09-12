@@ -7,12 +7,27 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <header>
-      <h1>Welcome to Flatiron Cambio</h1>
-    </header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+
+      <div class="container">
+          <span class="navbar-brand mb-0 h1">Flatiron Cambio</span>
+    
+        <ul class="nav justify-content-end">
+
+        </ul>
+      </div>
+    </nav>
 
     <main>
-
+        <div id="login-form-div" class="container">
+          <form id="login-form">
+              <h3>Enter Your Name To Play:</h3>
+              <input id="login-field" type="text" placeholder="Your Name">
+              <br><br>
+              <button type="submit" class="btn btn-secondary">Submit</button>
+              <br><br>
+          </form>
+        </div>
     </main>
     <script src="./src/index.js"></script>
   </body>
